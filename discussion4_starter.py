@@ -17,7 +17,7 @@ class Rectangle():
     #       "A rectangle with width ____ and height ____"
 
     def __str__(self):
-        return "A rectangle with width " + str(self.width) + "and height " + str(self.height)
+        return "A rectangle with width " + str(self.width) + " and height " + str(self.height)
     
 
 
@@ -59,6 +59,8 @@ class Rectangle():
         return self.width * 2 + self.height * 2
     
     
+
+#added an extra commit
 
 
 def main():
